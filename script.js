@@ -34,13 +34,13 @@ playBtn.addEventListener('click', playFunc);
 
 
 const fillFunc = (arr) => {
-for (let i = 0; i < arr.length; i++) {
-if (arr[i] === arr[i+1] && arr[i] === arr[i+2]) {
+
+if (arr[0] === arr[1] || arr[0] === arr[2] || arr[0] === arr[3] || arr[0] === arr[4]) {
     return 'Du är en vinnare, ' + user;
-} else if (arr[i] === arr[i+1]) {
-    return 'Du får ett tröstpris, ' + user;
+
 } else {
     return 'Otur, ' + user + '! Försök igen';
 }
 } 
-}
+
+
