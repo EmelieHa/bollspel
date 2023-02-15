@@ -41,7 +41,7 @@ summa.textContent = 'Resultat = ' + sumArr;
 while (sumArr < 100) {
     return 'Kör igen ' + user; 
 } 
-    'Du är en vinnare ' + user;
+   return 'Du är en vinnare ' + user;
 
 }
 
